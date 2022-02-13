@@ -1,5 +1,7 @@
 # User Authentication with the MEAN Stack
 
+Alan: Commercial freight transportation management system
+
 A look at managing user authentication in the MEAN stack using the most common MEAN architecture of having an Angular single-page app using a REST API built with Node, Express and MongoDB.
 
 Article: https://www.sitepoint.com/user-authentication-mean-stack/
