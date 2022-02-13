@@ -1,2 +1,2 @@
 # passportusa
-Truck freight supply chain transportation tracking management system
+Freight trucker supply chain transportation tracking management system
