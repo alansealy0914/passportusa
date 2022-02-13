@@ -1,0 +1,62 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h4 class="form-signin-heading">Business Profile</h4>
+      <div class="form-horizontal">
+        <div class="form-group">
+          <label class="col-sm-6 control-label"><strong>Client:</strong>&nbsp;{{ details?.name }}</label>
+         <br>
+          <label class="col-sm-6 control-label"><strong>Email:</strong>&nbsp;{{ details?.email }}</label> 
+         
+         </div>
+      </div>
+    </div>
+  </div><hr>
+  <div class="row">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+      <h6 class="h6">
+        <a routerLink="/carriers-list">Freight-Carrier List</a></h6>
+    </div>  
+  </div>
+  
+  <div class="row">
+    <h4 class="form-signin-heading">Customer History</h4>
+    <p>Carrier freight history: List of customer deliveries, delivery order date, total items and total cost, new orders:</p><br>
+    <form class="form-inline">
+      <div class="form-group">
+        <!--<div class="input-group">
+          <input class="form-control" type="text" style="box-shadow: 0px 8px 16px 0px rgba(14, 13, 13, 0.342); font-size: 14px" placeholder="Search Here" [(ngModel)]="filter">
+        </div>-->
+      </div>
+      &nbsp;<button type="button" class="btn btn-primary btn-md" style="box-shadow: 0px 8px 16px 0px rgba(14, 13, 13, 0.342); font-size: 14px">
+        <a routerLink="/order-history" style="color:white">Order History</a>
+      </button>
+      &nbsp;<button type="button" (click)="goToCreateOrder()" class="btn btn-primary btn-md" style="box-shadow: 0px 8px 16px 0px rgba(14, 13, 13, 0.342); font-size: 14px">
+        <a routerLink="/create-order" style="color:white">Create New Order</a></button>
+        <!--<a routerLink="/create-order" style="color:white">Create Order</a></button>-->
+    </form>
+
+
+
+
+
+
+
+
+
+<!--<div class="form-horizontal">
+        
+          <label class="col-sm-3 control-label">Email</label>
+          <p class="form-control-static">{{ details?.email }}</p>
+        
+      </div>-->
+
+<!--<div class="form-group">
+          <label class="col-sm-2 control-label">Email</label>
+          <p class="form-control-static">{{ details?.email }}</p>
+        </div>-->
+
+
+
+        
